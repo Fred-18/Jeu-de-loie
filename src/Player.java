@@ -34,6 +34,10 @@ public class Player {
     public void setPosition(int position) {
         this.position = position;
     }
+    
+    public void setSum(int sum) {
+        this.sum = sum;
+    }
 
     public int rollDice(int firstDice, int secondDice) {
         sum = firstDice + secondDice;
